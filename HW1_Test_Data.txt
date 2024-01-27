@@ -1,0 +1,82 @@
+group: Homework1 - DRINKS, HAS_BEAN, BEAN
+
+
+DRINKS = {
+PERSON, COFFEE
+
+'Alice',	'Breakfast Delight'
+'Bob',	'Espresso'
+'Diana',	'Breakfast Delight'
+'Eve',	'Americano'
+'Alice',	'Flat White'
+'Eve',	'Flat White'
+'Bob',	'Latte'
+'Diana',	'Latte'
+'Eve',	'Latte'
+'Bob',	'Breakfast Delight'
+'Eve',	'Caramel Latte'
+'Bob',	'Espresso'
+'Alice',	'Espresso'
+'Charlie',	'Flat White'
+'Diana',	'Americano'
+'Eve',	'Mocha'
+'Person_1', 'Fake Coffee'
+}
+
+HAS_BEAN = {
+COFFEE, BEAN_NAME
+
+'Breakfast Delight',	'Catuai'
+'Caramel Latte',	'Catuai'
+'Americano',	'Catimor'
+'Breakfast Delight',	'Catimor'
+'Breakfast Delight',	'Bourbon'
+'Caramel Latte',	'Bourbon'
+'Breakfast Delight',	'Robusta'
+'Breakfast Delight',	'Bourbon'
+'Espresso',	'Geisha'
+'Caramel Latte',	'Bourbon'
+'Mocha',	'Geisha'
+'Flat White',	'Typica'
+'Latte',	'Arabica'
+'Fake Coffee', 'Fake Name'
+}
+
+BEAN = {
+BEAN_NAME, FROM_LOCATION
+
+'Fake Name', 'Fake Location'
+'Catuai',	'Brazil'
+'Catuai',	'Columbia'
+'Catuai',	'Peru'
+'Catuai',	'Guatemala'
+'Catimor',	'Brazil'
+'Catimor',	'Peru'
+'Catimor',	'Vietnam'
+'Catimor',	'Guatemala'
+'Arabica',	'Colombia'
+'Arabica',	'Ethiopia'
+'Arabica',	'Vietnam'
+'Arabica',	'Indonesia'
+'Arabica',	'Guatemala'
+'Robusta',	'Colombia'
+'Robusta',	'Ethiopia'
+'Robusta',	'Vietnam'
+'Robusta',	'Indonesia'
+'Robusta',	'Guatemala'
+'Bourbon',	'Colombia'
+'Bourbon',	'Ethiopia'
+'Bourbon',	'Vietnam'
+'Bourbon',	'Indonesia'
+'Bourbon',	'Guatemala'
+'Typica',	'Colombia'
+'Typica',	'Ethiopia'
+'Typica',	'Vietnam'
+'Typica',	'Indonesia'
+'Typica',	'Guatemala'
+'Geisha',	'Colombia'
+'Geisha',	'Ethiopia'
+'Geisha',	'Vietnam'
+'Geisha',	'Indonesia'
+'Geisha',	'Guatemala'
+}
